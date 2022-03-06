@@ -1,4 +1,4 @@
-baseurl = "https://seyahdoo.github.io/website/"
+baseurl = "https://seyahdoo.com/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
