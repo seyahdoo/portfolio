@@ -1,8 +1,7 @@
-﻿
-+++
+﻿+++
 title = "sinema not 2018"
+date = "2018-05-29"
 +++
-
 
 
 Ders 1

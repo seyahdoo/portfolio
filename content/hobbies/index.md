@@ -35,7 +35,7 @@ FRP bir oyun. Masanın başında bir kişinin oynanan oyunu, hikayeyi yönetip a
 
 FRP yi düşün, ama cidden karakterin kıyafetlerini ekipmanlarını alıp cidden oynuyorsunuz. Daha çok doğaçlama tiyatro gibi. Yukardaki foto Eskişehir LARP ekibinin bir fotoğrafı. Bende ortada biyerlerde dilenci nolan olarak duruyorum. Elfler var. Gezginler var. Büyücüler, şifacılar var. Şehirli askerler var. Bunlara isyan eden isyancılar var. Ormanda goblinler var. Binbir türlü düzenbazlık, itlik, kopukluk, diplomasi, savaş var. Gelin yani.
 
-![LARP](/images/13063109_10154072876583828_5603843904119015362_o-640x426.jpg)
+![LARP](/images/13063109_10154072876583828_5603843904119015362_o.jpg)
 
 LARP oynarken ben ben değilim. Belki isyankar bir zombi, belki fakir bir dilenci, belkide hancının yeni çırağıyım.
 
