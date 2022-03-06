@@ -1,5 +1,5 @@
 ﻿+++
-title = "Showreel 2018"
+title = "Domain Reload"
 date = ""
 author = ""
 authorTwitter = "" #do not include @
@@ -9,7 +9,3 @@ keywords = ["", ""]
 description = ""
 showFullContent = false
 +++
-
-{{< youtube YhA7I_W-Fc4 >}}
-
-
