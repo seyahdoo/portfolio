@@ -1,13 +1,6 @@
 ﻿+++
 title = "Super Box Platformer Deluxe"
-date = ""
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
+date = "2017-4-4"
 +++
 
 

@@ -1,13 +1,6 @@
 ﻿+++
 title = "Showreel 2018"
-date = ""
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
+date = "2018-03-12"
 +++
 
 {{< youtube YhA7I_W-Fc4 >}}

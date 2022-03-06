@@ -1,13 +1,6 @@
 ﻿+++
 title = "Extreme Physics Professor"
-date = ""
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
+date = "2017-4-4"
 +++
 
 

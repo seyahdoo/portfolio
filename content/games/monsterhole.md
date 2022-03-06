@@ -1,13 +1,6 @@
 ﻿+++
 title = "Monsterhole"
-date = ""
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
+date = "2018-12-03"
 +++
 
 

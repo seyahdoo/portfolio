@@ -1,13 +1,6 @@
 ﻿+++
 title = "Bosslu Şey"
-date = ""
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
+date = "2017-04-04"
 +++
 
 
