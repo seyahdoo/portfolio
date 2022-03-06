@@ -22,8 +22,7 @@ jobs:
         with:
           hugo-version: 'latest'
           # extended: true
-  
-      - name: Cache Hugo Modules
+      
       - uses: actions/cache@v2
         with:
           path: /tmp/hugo_cache
