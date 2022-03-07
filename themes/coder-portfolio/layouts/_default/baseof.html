@@ -56,9 +56,6 @@
       <div class="content">
         {{ block "content" . }}{{ end }}
       </div>
-      {{ if or (.Site.Params.fixedbarContent) (.Site.Params.snsShare)}}
-        {{ partial "footer.html" . }}
-      {{ end }}
     </main>
 
     {{ template "_internal/google_analytics.html" . }}
