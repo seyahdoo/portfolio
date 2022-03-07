@@ -2,12 +2,15 @@
 title = "Hobbies"
 +++
 
+---
+
 # Aikido
 
 ![Aikido](/images/421068_4648481847117_1582532407_n.jpg)
 
 Ben bu olayın hastasıyım abi; yani aikido benim hayatımda gerçekten bir çığır açmış, küçük bir çağ açıp kapatmış bir spor, yaşam biçimi, felsefesi, herşeyimdir. Bakınız Enerji, yaşam, tanrı, savaş, politika gibi terimler ben bu spora başladığımda bana tamamen yabancı, anlamsız kelimelerdi. Ancak şu ortada gördüğünüz dünyalar tatlısı adam, şeref sensei, hocam, gerçekten dersini aldığım bir iki sene boyunca bana öğretmediğini bırakmadı. Her ne kadar çocuğun teki gibi de olsam, her ne kadar hiç dinlemiyor gibi de gözüksem dilinin döndüğü kadar, gösterebildiği kadar bana öğretebileceği kadarını öğretti. Şuanda hayatta bu kadar özgüvenim varsa, bu kadar öğrenme aşkım varsa, bu kadar özverili isem kesinlikle büyük bir kısmını şeref hocama borçluyum. Teşekkürler Şeref Sensei.
 
+---
 
 # Motocycles
 
@@ -15,6 +18,7 @@ Ben bu olayın hastasıyım abi; yani aikido benim hayatımda gerçekten bir ç�
 
 Ben kendimi bildim bileli hep şu iki tekerli şeysilere binmeyi çok sevmişimdir. Çocukken babamın bisikletinin arkasında dağlara piknik yapmaya gittiğimizi hatırlarım. Sonra motor amortisörlü küçük kırmızı bisikletimi. Sonra okula gitmek için kullandığım BMX bisikleti. Ve dershaneye, ve ilçe dışına, bayaa heryere gitmek için yani. Ama artık il dışlarına fizana filan seyahate çıkmak istiyorum. Ve emektar BMX’le o yola başlamak biraz zor geliyor açıkçası. Ehliyet bi çıksın. Şöyle yukarıdaki gibi bir şey yapıp bi karadeniz gezisine çıkmak lazım.
 
+---
 
 # FRP
 
@@ -28,6 +32,7 @@ FRP bir oyun. Masanın başında bir kişinin oynanan oyunu, hikayeyi yönetip a
 
 -> Türkiyeni yepyeni teknoloji ve geliştirme bakanı tarafından duyurulan “Uçur kazan!” adlı uçak inşa etme yarışmasını duyupda uçak yapma işine soyunun 4 yan sanayi ustasını oynadığımız bir oyun.
 
+---
 
 # LARP
 
@@ -39,6 +44,7 @@ FRP yi düşün, ama cidden karakterin kıyafetlerini ekipmanlarını alıp cidd
 
 LARP oynarken ben ben değilim. Belki isyankar bir zombi, belki fakir bir dilenci, belkide hancının yeni çırağıyım.
 
+---
 
 # Anime Conventions
 

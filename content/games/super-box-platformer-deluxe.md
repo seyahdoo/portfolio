@@ -1,6 +1,6 @@
 ﻿+++
 title = "Super Box Platformer Deluxe"
-date = "2017-4-4"
+date = "2017-04-04"
 +++
 
 

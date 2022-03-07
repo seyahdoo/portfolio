@@ -1,94 +1,93 @@
-baseurl = "https://seyahdoo.com/"
-languageCode = "en-us"
-theme = "terminal"
-paginate = 5
+baseurl = "https://seyahdoo.com"
+title = "Seyyid Doğan"
+
+theme = "coder-portfolio"
+
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+# disqusShortname = "yourdiscussshortname"
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+    author = "Seyyid Doğan"
+    description = "Seyyid Doğan's personal website"
+    keywords = "blog,developer,personal"
+    info = "GAME DEVELOPER"
+    avatarurl = "images/avatar.jpg"
+#     footercontent = "Enter a text here."
+#     fixedbarContent = "Do you want to know me more private?→"
+#     fixedbarContentAfter = "Thank You! Please share it if you like it→"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
+    hideCredits = false
+    hideCopyright = false
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 10
+    # Bottom sns share
+    snsShare = true
+    # Popular sns share
+    # if you want add sns. please message!
+#     enableTwitterShare = true
+#     enableFacebookShare = true
+#     enableHatenaShare = true
+#     enableLineShare = true
+#     enableLinkedInShare = true
 
-  # show selector to switch language
-  showLanguageSelector = false
+    thumbnail = "images/tn.png"
 
-  # set theme to full screen width
-  fullWidthTheme = false
+    # Custom CSS
+    custom_css = []
 
-  # center theme with default width
-  centerTheme = true
+    # Alignment of Mobile Menu items
+    itemscentered = true
 
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover = true
+    # RTL support
+    rtl = false
 
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+    langseparator = "|"
 
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
-
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
-
-  # set all headings to their default size (depending on browser settings)
-  # oneHeadingSize = true # default
-
-  # whether to show a page's estimated reading time
-  # readingTime = false # default
-
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  # Toc = false # default
-
-  # set title for the table of contents
-  # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
-
-
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = ""
-  site = ""
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/seyahdoo/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 2
+    url = "https://www.linkedin.com/in/seyahdoo/"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = 3
+    url = "https://instagram.com/kardanbaba/"
 
 [languages]
-  [languages.en]
-    languageName = "English"
-    title = "Seyahdoo"
-    subtitle = ""
-    owner = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Seyyid Doğan"
+        [languages.en.menu] # It is possible to change the menu too.
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 1.0
+                url = "blog"
 
-    [languages.en.params.logo]
-      logoText = "Seyahdoo"
-      logoHomeLink = "/"
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "games"
-        name = "Games"
-        url = "/games"
-      [[languages.en.menu.main]]
-        identifier = "dev"
-        name = "Blog"
-        url = "/blog"
-      [[languages.en.menu.main]]
-        identifier = "hobbies"
-        name = "Hobbies"
-        url = "/hobbies"
+            [[languages.en.menu.main]]
+                name = "Games"
+                weight = 2.0
+                url = "games"
+
+            [[languages.en.menu.main]]
+                name = "Hobbies"
+                weight = 3
+                url = "hobbies"
+#             [[languages.en.menu.main]]
+#                 name = "Contact me"
+#                 weight = 5
+#                 url = "contact"
+
