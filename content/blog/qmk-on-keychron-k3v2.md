@@ -4,6 +4,12 @@ date = "2022-06-26"
 keywords = ["Keychron", "k3v2", "k3", "rgb", "qmk", "sonixqmk"]
 +++
 
+### Disclaimer:
+- Bluetooth connectivity will not work after this modification
+- After I did this modification my keyboard is sometimes not working after plugging in.
+I have to plug in several times to make it work sometimes.
+
+### How to do it:
 
 - Using this guide; https://sonixqmk.github.io//SonixDocs/install/
   - Setup QMK environment with Sonix QMK repo 
