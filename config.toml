@@ -1,5 +1,5 @@
 baseurl = "https://seyahdoo.com"
-title = "Seyyid Doğan"
+title = "Seyyid Dogan"
 
 theme = "coder-portfolio"
 
@@ -15,7 +15,7 @@ pygmentsUseClasses = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Seyyid Doğan"
+    author = "Seyyid Dogan"
     description = "Seyyid Doğan's personal website"
     keywords = "blog,developer,personal"
     info = "GAME DEVELOPER"
@@ -70,7 +70,7 @@ pygmentsUseClasses = true
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Seyyid Doğan"
+        title = "Seyyid Dogan"
         [languages.en.menu] # It is possible to change the menu too.
             [[languages.en.menu.main]]
                 name = "Blog"
