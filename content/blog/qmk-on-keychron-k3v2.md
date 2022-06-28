@@ -1,6 +1,6 @@
 ﻿+++
-title = "Installing QMK on Keychron k3v2 RGB edition"
-date = "2022-06-26"
+title = "Installing QMK on Keychron k3v2 RGB with optical switches"
+date = "2022-06-28"
 keywords = ["Keychron", "k3v2", "k3", "rgb", "qmk", "sonixqmk"]
 +++
 
