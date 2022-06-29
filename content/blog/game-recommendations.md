@@ -11,6 +11,7 @@ keywords = ["Games"]
 - Celeste
 - It Takes Two
 - The Legend of Zelda: A Link to the Past
+- We Were Here (whole franchise)
 
 
 ### Should Plays:
@@ -31,4 +32,8 @@ keywords = ["Games"]
 - Life is Strange
 - The Legend of Zelda: A Link Between Worlds
 - FEZ
-
+- Astroneer
+- Risk of Rain 2 (with lots of mods)
+- Golf with your friends
+- Tabletop Simulator
+- Arma 3 (with an arma clan, with lots of mods, never play alone)
