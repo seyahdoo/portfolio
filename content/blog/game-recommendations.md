@@ -6,7 +6,7 @@ keywords = ["Games"]
 
 ### Must Plays:
 - Psychonauts 1
-- Psychonatus 2
+- Psychonauts 2
 - Return of the Obra Dinn
 - Celeste
 - It Takes Two
