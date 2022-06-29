@@ -24,6 +24,7 @@ keywords = ["Games"]
 - SteamWorld Dig 2
 - Trackmania(2020)
 - Magicka
+- Magicka 2
 - Heave Ho
 - Nidhogg
 - Lumino City & Lume
