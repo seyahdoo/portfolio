@@ -1,7 +1,8 @@
 ﻿+++
 title = "Installing QMK on Keychron k3v2 RGB with optical switches"
 date = "2022-06-28"
-keywords = ["Keychron", "k3v2", "k3", "rgb", "qmk", "sonixqmk"]
+tags = ["Keychron", "k3v2", "k3", "rgb", "qmk", "sonixqmk"]
+type = "post"
 +++
 
 ### Disclaimer:

@@ -1,7 +1,8 @@
 +++
 title = "Games That I Recommend"
 date = "2022-06-29"
-keywords = ["Games"]
+tags = ["Games"]
+type = "post"
 +++
 
 ### Must Plays:

@@ -1,94 +1,69 @@
 baseurl = "https://seyahdoo.com"
 title = "Seyyid Dogan"
-
-theme = "coder-portfolio"
-
-DefaultContentLanguage = "en"
-
-paginate = 20
-
-pygmentsstyle = "b2"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-pygmentsUseClasses = true
-
-# disqusShortname = "yourdiscussshortname"
-
+defaultContentLanguage = "en"
+languageCode = "en"
+theme = "gokarna"
+enableRobotsTXT = true
 [params]
     author = "Seyyid Dogan"
     description = "Seyyid Doğan's personal website"
-    keywords = "blog,developer,personal"
+    metaKeywords = ["blog", "developer", "personal"]
     info = "GAME DEVELOPER"
     avatarurl = "images/avatar.jpg"
-#     footercontent = "Enter a text here."
-#     fixedbarContent = "Do you want to know me more private?→"
-#     fixedbarContentAfter = "Thank You! Please share it if you like it→"
-
-    hideCredits = false
-    hideCopyright = false
-
-    # Bottom sns share
-    snsShare = true
-    # Popular sns share
-    # if you want add sns. please message!
-#     enableTwitterShare = true
-#     enableFacebookShare = true
-#     enableHatenaShare = true
-#     enableLineShare = true
-#     enableLinkedInShare = true
-
-    thumbnail = "images/tn.png"
-
-    # Custom CSS
-    custom_css = []
-
-    # Alignment of Mobile Menu items
-    itemscentered = true
-
-    # RTL support
-    rtl = false
-
-    langseparator = "|"
-
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github"
-    weight = 1
-    url = "https://github.com/seyahdoo/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 2
-    url = "https://www.linkedin.com/in/seyahdoo/"
-[[params.social]]
-    name = "Instagram"
-    icon = "fab fa-instagram"
-    weight = 3
-    url = "https://instagram.com/kardanbaba/"
-
-[languages]
-    [languages.en]
-        languagecode = "en"
-        languagename = "English" # The language name to be displayed in the selector.
-        title = "Seyyid Dogan"
-        [languages.en.menu] # It is possible to change the menu too.
-            [[languages.en.menu.main]]
-                name = "Blog"
-                weight = 1
-                url = "blog"
-
-            [[languages.en.menu.main]]
-                name = "Projects"
-                weight = 2
-                url = "projects"
-
-            [[languages.en.menu.main]]
-                name = "Hobbies"
-                weight = 3
-                url = "hobbies"
-                
-            [[languages.en.menu.main]]
-                name = "Contact"
-                weight = 5
-                url = "/"
-
+    # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+    avatarSize = "size-l"
+    # Accent color is displayed when you hover over <a> tags
+    accentColor = "#FF4D4D"
+    # You can use this to inject any HTML in the <head> tag.
+    # Ideal usecase for this is to import custom js/css or add your analytics snippet
+    customHeadHTML = ""
+    # If you want to display posts on the homepage, the options are
+    # "popular" (order posts by weight), "recent" (order posts by date)
+    # or "" (do not display, default option)
+    showPostsOnHomePage = "recent"
+    # Footer text
+    # footer = "The Marauders"
+    pygmentsStyle = "monokai"
+    socialIcons = [
+        {name = "github", url = "https://github.com/seyahdoo/"},
+        {name = "linkedin", url = "https://www.linkedin.com/in/seyahdoo/"},
+        {name = "instagram", url = "https://instagram.com/kardanbaba/"},
+    ]
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        url = "/blog/"
+        pre = ""
+        post = ""
+        name = "Blog"
+        weight = 1
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 2
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects/"
+        weight = 3
+    [[menu.main]]
+        identifier = "hobbies"
+        name = "Hobbies"
+        url = "/hobbies/"
+        weight = 4
+    [[menu.main]]
+        identifier = "github"
+        url = "https://github.com/seyahdoo/"
+        weight = 5
+        pre = "<span data-feather='github'></span>"
+    [[menu.main]]
+        identifier = "linkedin"
+        url = "https://www.linkedin.com/in/seyahdoo/"
+        weight = 6
+        pre = "<span data-feather='linkedin'></span>"
+    [[menu.main]]
+        identifier = "instagram"
+        url = "https://instagram.com/kardanbaba/"
+        weight = 7
+        pre = "<span data-feather='instagram'></span>"
