@@ -74,20 +74,21 @@ pygmentsUseClasses = true
         [languages.en.menu] # It is possible to change the menu too.
             [[languages.en.menu.main]]
                 name = "Blog"
-                weight = 1.0
+                weight = 1
                 url = "blog"
 
             [[languages.en.menu.main]]
-                name = "Games"
-                weight = 2.0
-                url = "games"
+                name = "Projects"
+                weight = 2
+                url = "projects"
 
             [[languages.en.menu.main]]
                 name = "Hobbies"
                 weight = 3
                 url = "hobbies"
-#             [[languages.en.menu.main]]
-#                 name = "Contact me"
-#                 weight = 5
-#                 url = "contact"
+                
+            [[languages.en.menu.main]]
+                name = "Contact"
+                weight = 5
+                url = "/"
 
