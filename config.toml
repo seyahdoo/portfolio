@@ -6,23 +6,13 @@ theme = "gokarna"
 enableRobotsTXT = true
 [params]
     author = "Seyyid Dogan"
-    description = "Seyyid Doğan's personal website"
+    description = "Game Developer / Computer Scientist"
     metaKeywords = ["blog", "developer", "personal"]
-    info = "GAME DEVELOPER"
     avatarurl = "images/avatar.jpg"
-    # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-    avatarSize = "size-l"
-    # Accent color is displayed when you hover over <a> tags
+    avatarSize = "size-l" # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
     accentColor = "#FF4D4D"
-    # You can use this to inject any HTML in the <head> tag.
-    # Ideal usecase for this is to import custom js/css or add your analytics snippet
-    customHeadHTML = ""
-    # If you want to display posts on the homepage, the options are
-    # "popular" (order posts by weight), "recent" (order posts by date)
-    # or "" (do not display, default option)
     showPostsOnHomePage = "recent"
-    # Footer text
-    # footer = "The Marauders"
+    footer = "Seyahdoo"
     pygmentsStyle = "monokai"
     socialIcons = [
         {name = "github", url = "https://github.com/seyahdoo/"},
@@ -33,8 +23,6 @@ enableRobotsTXT = true
     [[menu.main]]
         identifier = "posts"
         url = "/blog/"
-        pre = ""
-        post = ""
         name = "Blog"
         weight = 1
     [[menu.main]]
