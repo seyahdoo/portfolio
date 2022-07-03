@@ -57,7 +57,8 @@ I have to plug in several times to make it work sometimes.~~ See the hack below.
 
 
 ---
-My Compiled Firmware: [Download Firmware](/files/keychron_k3_rgb_optical_iso_iso.bin)
+My Compiled Firmware: [Download Firmware](/files/keychron_k3/keychron_k3_rgb_optical_iso_iso.bin)
 
-My Keymap: [Download Keymap](/files/keymap.c)
+My Keymap: [Download Keymap](/files/keychron_k3/keymap.c)
 
+My Config: [Download Config](/files/keychron_k3/config.h)
