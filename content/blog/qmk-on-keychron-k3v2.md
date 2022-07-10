@@ -8,7 +8,7 @@ type = "post"
 ### Disclaimer:
 - Bluetooth connectivity will not work after this modification
 - On my system, when you first plug the usb cable, it almost never connects at the first time. 
-I added EEPROM_RESET keybinding on Fn+Space button. It does connect after I press Fn+Space now.
+So I added `eeconfig_init();` on `void keyboard_post_init_user(void)` function. It works after I have added that.
 
 ### How to do it:
 
