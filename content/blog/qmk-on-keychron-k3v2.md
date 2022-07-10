@@ -7,15 +7,15 @@ type = "post"
 
 ### Disclaimer:
 - Bluetooth connectivity will not work after this modification
-- ~~After I did this modification my keyboard is sometimes not working after plugging in.
-I have to plug in several times to make it work sometimes.~~ See the hack below.
+- On my system, when you first plug the usb cable, it almost never connects at the first time. 
+I added EEPROM_RESET keybinding on Fn+Space button. It does connect after I press Fn+Space now.
 
 ### How to do it:
 
 - Using this guide; https://sonixqmk.github.io//SonixDocs/install/
   - Setup QMK environment with Sonix QMK repo 
+  - Apply config and keymap files
   - Download "Sonix Keyboard Flasher"
-  - [HACK] Checkout chibios-contrib to commit d5e4fb2517b47a6a507fb765d3c78ea46b80f430 (this is a hack to solve the keyboard not working sometimes when you plug in)
   - Compile QMK Sonix fimware with this command -> `qmk compile -kb keychron/k3/rgb/optical_iso -km iso`
   - Binary is at your home "qmk_firmware" folder and named with ".bin" extension
   
@@ -35,3 +35,5 @@ My Compiled Firmware: [Download Firmware](/files/keychron_k3/keychron_k3_rgb_opt
 My Keymap: [Download Keymap](/files/keychron_k3/keymap.c)
 
 My Config: [Download Config](/files/keychron_k3/config.h)
+
+My CI for building firmware: [Firmware CI Repo](https://github.com/seyahdoo/k3-v2-optical-qmk)
