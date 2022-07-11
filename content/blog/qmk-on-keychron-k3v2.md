@@ -26,7 +26,7 @@ So I added `eeconfig_init();` on `void keyboard_post_init_user(void)` function. 
 - Keyboard should be unresponsive and "Sonix Keyboard Flasher" app should see the flashable chip
 - Set settings: device = SN32F24x, qmk offset = 0x00
 - Then Flash QMK with the binary that you made in the compiling stage.
-- You dont need to disassemble keyboard to get to bootloader mode anymode. Just press Fn+Esc
+- You dont need to disassemble keyboard to get to bootloader mode anymore, just press Fn+Esc
 
 
 ---
