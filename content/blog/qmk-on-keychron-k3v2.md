@@ -19,7 +19,7 @@ So I added `eeconfig_init();` on `void keyboard_post_init_user(void)` function. 
   - Compile QMK Sonix fimware with this command -> `qmk compile -kb keychron/k3/rgb/optical_iso -km iso`
   - Binary is at your home "qmk_firmware" folder and named with ".bin" extension
   
-- Disassemble the keyboard
+- Disassemble the keyboard (you dont have to disassemble everything, just remove the keycaps next to the screws)
 - Switch to cable mode
 - Uplug keyboard
 - While shorting boot Pins; Plug the keyboard to PC
