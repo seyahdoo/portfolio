@@ -7,8 +7,9 @@ type = "post"
 
 ### Disclaimer:
 - Bluetooth connectivity will not work after this modification
-- On my system, when you first plug the usb cable, it almost never connects at the first time. 
-So I added `eeconfig_init();` on `void keyboard_post_init_user(void)` function. It rarely failed to connect after I have added that.
+- On my system, when you first plug the usb cable, it almost never connects at the first time; 
+I've added `#define NO_USB_STARTUP_CHECK = yes` to the `config.h` to fix it.
+I'm really not sure why this fixes it but I've got the idea from here. > https://github.com/qmk/qmk_firmware/issues/5585
 
 ### How to do it:
 
@@ -30,10 +31,6 @@ So I added `eeconfig_init();` on `void keyboard_post_init_user(void)` function. 
 
 
 ---
-My Compiled Firmware: [Download Firmware](/files/keychron_k3/keychron_k3_rgb_optical_iso_iso.bin)
+My Compiled Firmware: [Download Firmware](https://github.com/seyahdoo/k3-v2-optical-qmk/releases/latest/download/keychron_k3_rgb_optical_iso_iso_seyahdoo.bin)
 
-My Keymap: [Download Keymap](/files/keychron_k3/keymap.c)
-
-My Config: [Download Config](/files/keychron_k3/config.h)
-
-My CI for building firmware: [Firmware CI Repo](https://github.com/seyahdoo/k3-v2-optical-qmk)
+Source Code: [Firmware CI Repo](https://github.com/seyahdoo/k3-v2-optical-qmk)
