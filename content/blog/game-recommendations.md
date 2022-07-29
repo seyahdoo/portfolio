@@ -13,6 +13,7 @@ type = "post"
 - It Takes Two
 - The Legend of Zelda: A Link to the Past
 - We Were Here (whole franchise)
+- A Short Hike
 
 
 ### Should Plays:
