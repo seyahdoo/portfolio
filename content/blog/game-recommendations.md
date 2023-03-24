@@ -14,6 +14,7 @@ type = "post"
 - The Legend of Zelda: A Link to the Past
 - We Were Here (whole franchise)
 - A Short Hike
+- Hi-Fi Rush
 
 
 ### Should Plays:
