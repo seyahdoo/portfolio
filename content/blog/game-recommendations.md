@@ -18,6 +18,7 @@ type = "post"
 
 
 ### Should Plays:
+- Kena: Bridge of Spirits
 - Happenlance
 - Sekiro
 - Towerfall Ascension
