@@ -40,6 +40,8 @@ Regardless, here is the uncut video of me fixing my radio's type c problem.
 
 
 ### Materials Used
+
+- [Retevis RA685 Radio](https://amzn.to/3ADxGeF)
 - [Enameled Copper Wire 0.2mm](https://amzn.to/3LAcFrv)
 - [Flux](https://amzn.to/3HmfAlc)
 - [TS101 Soldering Iron](https://amzn.to/425YShE)
