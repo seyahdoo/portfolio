@@ -3,7 +3,6 @@ title = "Retevis RA685 Type C Port Fix"
 date = "2023-04-27"
 tags = ["Diy"]
 type = "post"
-draft = true
 +++
 
 ### Intro
