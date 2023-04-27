@@ -36,7 +36,7 @@ I see most of the other people used UV curing green solder mask to fix this wire
 I recorded the whole process from start to finish, But unfortunately my head blocked the camera a bit on some soldering parts. 
 Regardless, here is the uncut video of me fixing my radio's type c problem.
 
-{{< youtube w7Ft2ymGmfc >}}
+{{< youtube UwgA1_lA9YI >}}
 
 
 ### Materials Used
