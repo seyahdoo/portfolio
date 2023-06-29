@@ -42,6 +42,6 @@ type = "post"
 - FEZ
 - Astroneer
 - Risk of Rain 2 (with lots of mods)
-- Golf with your friends, Golf It
+- Golf It
 - Tabletop Simulator
 - Arma 3 (with an arma clan, with lots of mods, never play alone)
