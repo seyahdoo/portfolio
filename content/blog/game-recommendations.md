@@ -38,6 +38,7 @@ type = "post"
 - Life is Strange
 - The Legend of Zelda: A Link Between Worlds
 - The Legend of Zelda: Breath of the Wild
+- The Legend of Zelda: Tears of the Kingdom
 - FEZ
 - Astroneer
 - Risk of Rain 2 (with lots of mods)
