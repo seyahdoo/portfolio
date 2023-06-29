@@ -9,6 +9,7 @@ type = "post"
 - Psychonauts 1
 - Psychonauts 2
 - Return of the Obra Dinn
+- The Case of the Golden Idol
 - Celeste (The 2020 Celeste Spring Community Collab and The Secret of Celeste Mountain looks great if you have finished the base game)
 - It Takes Two
 - The Legend of Zelda: A Link to the Past
