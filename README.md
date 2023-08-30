@@ -1,6 +1,12 @@
 # seyahdoo.com website
 
 ## How to test locally
-- install choco
-- install hugo extended
-- run "hugo serve" on repo root
+
+- [Install Choco](https://chocolatey.org/install)
+
+```
+choco install hugo-extended
+```
+```
+hugo serve
+```
