@@ -33,7 +33,7 @@ adb reboot
 
 - root the device
 
-# put modem diag modem to mode
+# put modem to diag mode
 adb shell
 su
 resetprop ro.bootmode usbradio
@@ -55,7 +55,7 @@ this will create a .xqcn file, this is human editable, backup the original versi
 (make sure you have the qcn backup and modem partition backup before doing this. 
 otherwise you may not be able to recover to original)
 
-adb reboot fastboot
+adb reboot bootloader
 boot to latest twrp (you dont need to insall it)
 adb shell
 dd if=/dev/zero of=/dev/block/bootdevice/by-name/modemst1
@@ -64,7 +64,7 @@ dd if=/dev/zero of=/dev/block/bootdevice/by-name/fsg
 dd if=/dev/zero of=/dev/block/bootdevice/by-name/fsc
 reboot
 
-# put modem diag modem to mode
+# put modem to diag mode
 adb shell
 su
 resetprop ro.bootmode usbradio
@@ -93,12 +93,14 @@ find the imei on the file and replace if needed, dont forget to backup your orig
 Run QPST Configuration
 Start Clients > Software Download
 Restore > Select Port > Browse for the xqcn file > Lightly Spam Start Button
+You might wanna restore multiple times (It might solve the imei not setting problem)
 reboot phone
 
 # done
 at this time phone functions should work normally.
 you might want to remove the root
 you might want to upgrade the software to latest
+factory resetting from the settings app does not ruin it
 cant lock the bootloader again because that would ruin the modem mod
 
 ```
