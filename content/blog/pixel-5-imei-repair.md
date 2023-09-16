@@ -92,13 +92,14 @@ find the imei on the file and replace if needed, dont forget to backup your orig
 # restore xqcn
 Run QPST Configuration
 Start Clients > Software Download
-Restore > Select Port > Browse for the xqcn file > Start
+Restore > Select Port > Browse for the xqcn file > Lightly Spam Start Button
 reboot phone
 
 # done
 at this time phone functions should work normally.
 you might want to remove the root
 you might want to upgrade the software to latest
+cant lock the bootloader again because that would ruin the modem mod
 
 ```
 
