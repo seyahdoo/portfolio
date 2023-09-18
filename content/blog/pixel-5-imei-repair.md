@@ -168,20 +168,3 @@ adb reboot
 - https://www.androidbrick.com/qualcomm-snapdragon-imei-tamiri-ders-4-qualcomm-snapdragon-imei-repair/
 
 
-
-
-
-
-
-![Before](/we-glock-g17-gen4-mag-release-spring-fix/original-spring.jpg)
----
-![After](/we-glock-g17-gen4-mag-release-spring-fix/bent-spring.jpg)
----
-{{< youtube NWsCeQ7LCZA >}}
----
-{{< youtube ITjN5wS0Qxo >}}
-
-
-
-
-
