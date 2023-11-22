@@ -18,6 +18,7 @@ enableRobotsTXT = true
         {name = "github", url = "https://github.com/seyahdoo/"},
         {name = "linkedin", url = "https://www.linkedin.com/in/seyahdoo/"},
         {name = "instagram", url = "https://instagram.com/kardanbaba/"},
+        {name = "discord", url = "https://discord.gg/ZtDFmjXe7w"},
     ]
 [menu]
     [[menu.main]]
@@ -55,3 +56,11 @@ enableRobotsTXT = true
         url = "https://instagram.com/kardanbaba/"
         weight = 7
         pre = "<span data-feather='instagram'></span>"
+    [[menu.main]]
+        identifier = "discord"
+        url = "https://discord.gg/ZtDFmjXe7w"
+        weight = 8
+        pre = "<img class='svg-inject' src='/svg/icons/discord.svg' />"
+        
+        
+        
