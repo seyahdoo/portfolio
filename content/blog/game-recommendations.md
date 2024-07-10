@@ -16,6 +16,7 @@ type = "post"
 - We Were Here (whole franchise)
 - A Short Hike
 - Hi-Fi Rush
+- Inscryption
 
 
 ### Should Plays:
