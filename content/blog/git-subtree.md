@@ -1,11 +1,9 @@
 +++
 title = "Git Subtree Usage"
-date = "2024-07-24"
+date = "2024-07-30"
 tags = ["Git"]
 type = "post"
 +++
-
-# Git Subtree
 
 Git subtree is an alternative to git submodules. Its a way for having a git repo on another git repo.
 
