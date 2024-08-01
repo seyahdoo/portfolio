@@ -78,7 +78,7 @@ Update child subtree on mother to main
 Merge feature branch on mother to main
 ```
 
-# Listing existing subtrees
+# Listing Existing Subtrees
 
 ```
 git log | grep git-subtree-dir | tr -d ' ' | cut -d ":" -f2 | sort | uniq | xargs -I {} bash -c 'if [ -d $(git rev-parse --show-toplevel)/{} ] ; then echo {}; fi'
