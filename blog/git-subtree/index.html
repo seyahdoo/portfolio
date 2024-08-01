@@ -25,6 +25,6 @@ Commit changes on child repo in a feature branch
 Merge child feature branch to main
 Update child subtree on mother to main
 Merge feature branch on mother to main
-</code></pre><h1 id=listing-existing-subtrees>Listing existing subtrees</h1><pre tabindex=0><code>git log | grep git-subtree-dir | tr -d &#39; &#39; | cut -d &#34;:&#34; -f2 | sort | uniq | xargs -I {} bash -c &#39;if [ -d $(git rev-parse --show-toplevel)/{} ] ; then echo {}; fi&#39;
+</code></pre><h1 id=listing-existing-subtrees>Listing Existing Subtrees</h1><pre tabindex=0><code>git log | grep git-subtree-dir | tr -d &#39; &#39; | cut -d &#34;:&#34; -f2 | sort | uniq | xargs -I {} bash -c &#39;if [ -d $(git rev-parse --show-toplevel)/{} ] ; then echo {}; fi&#39;
 </code></pre></p></div><div class=prev-next></div><script>let backToTopButton=document.getElementById("btt-button");window.onscroll=function(){scrollFunction()};function scrollFunction(){document.body.scrollTop>20||document.documentElement.scrollTop>20?backToTopButton.style.display="block":backToTopButton.style.display="none"}function topFunction(){smoothScrollToTop()}function smoothScrollToTop(){const e=()=>{const t=document.documentElement.scrollTop||document.body.scrollTop;t>0&&(window.requestAnimationFrame(e),window.scrollTo(0,t-t/8))};e()}</script></div></main><footer class=footer><span>&copy; 2024 Seyahdoo</span>
 <span>Made with &#10084;&#65039; using <a target=_blank href=https://github.com/526avijitgupta/gokarna>Gokarna</a></span></footer></body></html>
