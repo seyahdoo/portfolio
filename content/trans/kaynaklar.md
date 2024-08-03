@@ -10,6 +10,7 @@ type = "post"
 # bilgi kaynaklari
 https://transfemscience.org/articles/transfem-intro/ \
 https://diyhrt.wiki/transfem \
+https://transfemscience.org/articles/transfem-intro/ \
 https://transfemscience.org/misc/injectable-e2-simulator-advanced/ \
 https://transfemscience.org/articles/injectable-e2-simulator-release/ 
  
