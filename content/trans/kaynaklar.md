@@ -14,11 +14,6 @@ https://transfemscience.org/misc/injectable-e2-simulator-advanced/ \
 https://transfemscience.org/articles/injectable-e2-simulator-release/ 
  
  
-# ikincil 
-https://en.wikipedia.org/wiki/Estradiol_undecylate \
-https://en.wikipedia.org/wiki/Polyestradiol_phosphate 
- 
- 
 # diy hrt kaynaklar 
 http://lena.kiev.ua/ev/ \
 https://astrovials.com/ \
@@ -32,5 +27,7 @@ https://transharmreduction.org/hrt-testing
  
 # diğer 
 https://genderdysphoria.fyi/en \
-https://archive.org/details/fucking-trans-women-mira-bellwether-october-2010.cleaned/mode/2up 
+https://archive.org/details/fucking-trans-women-mira-bellwether-october-2010.cleaned/mode/2up \
+https://en.wikipedia.org/wiki/Estradiol_undecylate \
+https://en.wikipedia.org/wiki/Polyestradiol_phosphate 
 
