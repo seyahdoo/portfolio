@@ -30,3 +30,7 @@ https://hrt.coffee/injections/
 
 https://transharmreduction.org/hrt-testing
 
+
+# diğer
+https://genderdysphoria.fyi/en
+https://archive.org/details/fucking-trans-women-mira-bellwether-october-2010.cleaned/mode/2up
