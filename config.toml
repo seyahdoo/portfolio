@@ -38,39 +38,44 @@ enableRobotsTXT = true
         name = "Blog"
         weight = 1
     [[menu.main]]
+        identifier = "trans"
+        url = "/trans/"
+        name = "Trans"
+        weight = 2
+    [[menu.main]]
         identifier = "tags"
         name = "Tags"
         url = "/tags/"
-        weight = 2
+        weight = 3
     [[menu.main]]
         identifier = "projects"
         name = "Projects"
         url = "/projects/"
-        weight = 3
+        weight = 4
     [[menu.main]]
         identifier = "hobbies"
         name = "Hobbies"
         url = "/hobbies/"
-        weight = 4
+        weight = 5
     [[menu.main]]
         identifier = "github"
         url = "https://github.com/seyahdoo/"
-        weight = 5
+        weight = 6
         pre = "<span data-feather='github'></span>"
     [[menu.main]]
         identifier = "linkedin"
         url = "https://www.linkedin.com/in/seyahdoo/"
-        weight = 6
+        weight = 7
         pre = "<span data-feather='linkedin'></span>"
     [[menu.main]]
         identifier = "instagram"
         url = "https://instagram.com/kardanbaba/"
-        weight = 7
+        weight = 8
         pre = "<span data-feather='instagram'></span>"
     [[menu.main]]
         identifier = "discord"
         url = "https://discord.gg/ZtDFmjXe7w"
-        weight = 8
+        weight = 9
         pre = "<img class='svg-inject' src='/svg/icons/discord.svg' />"
         
         
