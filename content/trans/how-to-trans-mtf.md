@@ -1,5 +1,5 @@
 +++
-title = "Trans Bilim"
+title = "Trans Yöntem"
 date = "2024-08-03"
 tags = ["Trans"]
 type = "post"
