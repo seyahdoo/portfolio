@@ -12,7 +12,9 @@ https://transfemscience.org/articles/transfem-intro/ \
 https://diyhrt.wiki/transfem \
 https://transfemscience.org/articles/transfem-intro/ \
 https://transfemscience.org/misc/injectable-e2-simulator-advanced/ \
-https://transfemscience.org/articles/injectable-e2-simulator-release/ 
+https://transfemscience.org/articles/injectable-e2-simulator-release/ \
+https://www.estrannai.se/ \
+https://groups.io/g/MTFHRT/wiki/29602
  
  
 # diy hrt kaynaklar 
