@@ -27,7 +27,6 @@ function ready() {
             document.querySelector('main#content > .container').classList.contains('post')) {
         if (document.getElementById('TableOfContents') !== null) {
             fixTocItemsIndent();
-            addSmoothScroll();
             createScrollSpy();
         } else {
             document.querySelector('main#content > .container.post').style.display = "block";
@@ -62,18 +61,6 @@ function fixTocItemsIndent() {
     document.querySelectorAll('#TableOfContents a').forEach($tocItem => {
       const itemId = $tocItem.getAttribute("href").substring(1)
       $tocItem.classList.add(HEADING_TO_TOC_CLASS[document.getElementById(itemId).tagName]);
-    });
-}
-
-function addSmoothScroll() {
-    document.querySelectorAll('#toc a').forEach($anchor => {
-        $anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.getElementById(this.getAttribute('href').substring(1)).scrollIntoView({
-                behavior: 'smooth',
-                block: 'start' //scroll to top of the target element
-            });
-        });
     });
 }
 
@@ -116,17 +103,21 @@ function setThemeByUserPref() {
 function toggleTheme(event) {
     toggleIcon = event.currentTarget.querySelector("a svg.feather");
     if (toggleIcon.classList[1] === THEME_TO_ICON_CLASS.dark) {
-        setTheme('light', [event.currentTarget]);
+        setThemeAndStore('light', [event.currentTarget]);
     } else if (toggleIcon.classList[1] === THEME_TO_ICON_CLASS.light) {
-        setTheme('dark', [event.currentTarget]);
+        setThemeAndStore('dark', [event.currentTarget]);
     }
 }
 
 function setTheme(themeToSet, targets) {
-    localStorage.setItem(THEME_PREF_STORAGE_KEY, themeToSet);
     darkThemeCss.disabled = themeToSet === 'light';
     targets.forEach((target) => {
         target.querySelector('a').innerHTML = feather.icons[THEME_TO_ICON_CLASS[themeToSet].split('-')[1]].toSvg();
-        target.querySelector("#dark-theme-toggle-screen-reader-target").textContent = [THEME_TO_ICON_TEXT_CLASS[themeToSet]];
+        target.querySelector(".dark-theme-toggle-screen-reader-target").textContent = [THEME_TO_ICON_TEXT_CLASS[themeToSet]];
     });
+}
+
+function setThemeAndStore(themeToSet, targets) {
+    setTheme(themeToSet, targets);
+    localStorage.setItem(THEME_PREF_STORAGE_KEY, themeToSet);
 }
