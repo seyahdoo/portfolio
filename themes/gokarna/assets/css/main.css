@@ -27,6 +27,7 @@ html {
   font-size: 17.5px;
   min-height: 100%;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -184,6 +185,12 @@ img {
   stroke-width: 2;
   width: 20px;
 }
+.nav-item a svg {
+  height: 20px;
+  margin: -3px auto;
+  stroke-width: 2;
+  width: 20px;
+}
 .nav-links .nav-link.icon a {
   padding: 0 8px;
 }
@@ -321,6 +328,18 @@ code {
 
 pre code {
   font-size: 0.9em;
+}
+
+/*
+Fix iOS font sizing in code blocks
+Author: https://github.com/bglw
+Source: https://github.com/adityatelange/hugo-PaperMod/issues/828#issuecomment-1171994855
+*/
+code {
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 blockquote {
