@@ -34,3 +34,9 @@ https://archive.org/details/fucking-trans-women-mira-bellwether-october-2010.cle
 https://en.wikipedia.org/wiki/Estradiol_undecylate \
 https://en.wikipedia.org/wiki/Polyestradiol_phosphate 
 
+
+# voice training
+https://www.youtube.com/watch?v=BfCS01MkbIY&list=PLYJkVI7LLpknvBww07jnsxbz-_Lkynsry
+
+# voice training pitch analyzer
+https://www.speechandhearing.net/laboratory/ampitch/
