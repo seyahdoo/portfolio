@@ -36,8 +36,8 @@ https://en.wikipedia.org/wiki/Polyestradiol_phosphate
 
 
 # voice training
-https://youtu.be/BfCS01MkbIY?si=yCOyGsL4oOUjhc-r
-https://youtu.be/oWmj73Ttp4E?si=1QCmg98n-a-A-uCJ
+https://youtu.be/BfCS01MkbIY?si=yCOyGsL4oOUjhc-r \
+https://youtu.be/oWmj73Ttp4E?si=1QCmg98n-a-A-uCJ \
 https://www.youtube.com/watch?v=BfCS01MkbIY&list=PLYJkVI7LLpknvBww07jnsxbz-_Lkynsry
 
 
