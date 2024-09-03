@@ -1,5 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mods on Bahar Doğan</title><link>https://seyahdoo.com/tags/mods/</link><description>Recent content in Mods on Bahar Doğan</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://seyahdoo.com/tags/mods/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Mods &amp; Programs</title><link>https://seyahdoo.com/blog/windows_mods/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/blog/windows_mods/</guid><description>Posy&amp;rsquo;s Mouse Cursor (default one) Because the windows default one is crooked and does not look right, I changed my mouse cursor to this.
-http://www.michieldb.nl/other/cursors/
-Turkish programmers layout (my own keyboard layout) https://github.com/seyahdoo/turkish-programmer-keyboard-layout
-Autohotkey and Python scripts for stuff and Launchy or Steamdeck to launch them (no longer used) https://github.com/seyahdoo/AHK Win 10 LTSB A really stripped down and stable version of windows 10. It does not have most of the bloatware and it receives updates 1 year after the main channel.</description></item><item><title>Stuff that I have modded</title><link>https://seyahdoo.com/blog/my_mods/</link><pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/blog/my_mods/</guid><description>To be filled in later&amp;hellip;
-Keyboard Phone Windows Autohotkey mods Launchy Streamdeck Pmdeck Git IDE (Rider) Risk of Rain 2 Mobge Unity CI Window Laps Framework (Its so modded that its no longer a mod) My own hitbox game controller</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mods on Bahar Doğan</title><link>https://seyahdoo.com/tags/mods/</link><description>Recent content in Mods on Bahar Doğan</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://seyahdoo.com/tags/mods/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Mods &amp; Programs</title><link>https://seyahdoo.com/blog/windows_mods/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/blog/windows_mods/</guid><description>&lt;h2 id="posys-mouse-cursor-default-one">Posy&amp;rsquo;s Mouse Cursor (default one)&lt;/h2>
+&lt;p>Because the windows default one is crooked and does not look right, I changed my mouse cursor to this.&lt;/p>
+&lt;p>&lt;a href="http://www.michieldb.nl/other/cursors/">http://www.michieldb.nl/other/cursors/&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="turkish-programmers-layout-my-own-keyboard-layout">Turkish programmers layout (my own keyboard layout)&lt;/h2>
+&lt;p>&lt;a href="https://github.com/seyahdoo/turkish-programmer-keyboard-layout">https://github.com/seyahdoo/turkish-programmer-keyboard-layout&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="autohotkey-and-python-scripts-for-stuff-and-launchy-or-steamdeck-to-launch-them-no-longer-used">Autohotkey and Python scripts for stuff and Launchy or Steamdeck to launch them (no longer used)&lt;/h2>
+&lt;h2 id="httpsgithubcomseyahdooahk">&lt;a href="https://github.com/seyahdoo/AHK">https://github.com/seyahdoo/AHK&lt;/a>&lt;/h2>
+&lt;h2 id="win-10-ltsb">Win 10 LTSB&lt;/h2>
+&lt;p>A really stripped down and stable version of windows 10.
+It does not have most of the bloatware and it receives updates 1 year after the main channel.
+Last time I have seen an LTSB iso image it had this fingerprint&lt;/p></description></item><item><title>Stuff that I have modded</title><link>https://seyahdoo.com/blog/my_mods/</link><pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/blog/my_mods/</guid><description>&lt;p>To be filled in later&amp;hellip;&lt;/p>
+&lt;ul>
+&lt;li>Keyboard&lt;/li>
+&lt;li>Phone&lt;/li>
+&lt;li>Windows
+&lt;ul>
+&lt;li>Autohotkey mods&lt;/li>
+&lt;li>Launchy&lt;/li>
+&lt;li>Streamdeck&lt;/li>
+&lt;li>Pmdeck&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Git&lt;/li>
+&lt;li>IDE (Rider)&lt;/li>
+&lt;li>Risk of Rain 2&lt;/li>
+&lt;li>Mobge Unity CI Window&lt;/li>
+&lt;li>Laps Framework (Its so modded that its no longer a mod)&lt;/li>
+&lt;li>My own hitbox game controller&lt;/li>
+&lt;/ul></description></item></channel></rss>
