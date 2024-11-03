@@ -8,4 +8,14 @@ I&amp;rsquo;m really not sure why this fixes it but I&amp;rsquo;ve got the idea 
 &lt;h3 id="how-to-do-it">How to do it:&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>Using this guide; &lt;a href="https://sonixqmk.github.io//SonixDocs/install/">https://sonixqmk.github.io//SonixDocs/install/&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>Using this guide; &lt;a href="https://sonixqmk.github.io//SonixDocs/install/">https://sonixqmk.github.io//SonixDocs/install/&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Setup QMK environment with Sonix QMK repo&lt;/li>
+&lt;li>Apply config and keymap files&lt;/li>
+&lt;li>Download &amp;ldquo;Sonix Keyboard Flasher&amp;rdquo;&lt;/li>
+&lt;li>Compile QMK Sonix fimware with this command -&amp;gt; &lt;code>qmk compile -kb keychron/k3/rgb/optical_iso -km iso&lt;/code>&lt;/li>
+&lt;li>Binary is at your home &amp;ldquo;qmk_firmware&amp;rdquo; folder and named with &amp;ldquo;.bin&amp;rdquo; extension&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Disassemble the keyboard (you dont have to disassemble everything, just remove the keycaps next to the screws)&lt;/p></description></item></channel></rss>

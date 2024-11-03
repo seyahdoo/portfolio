@@ -24,7 +24,9 @@
 &lt;h1 id="voice-training">voice training&lt;/h1>
 &lt;p>&lt;a href="https://youtu.be/BfCS01MkbIY?si=yCOyGsL4oOUjhc-r">https://youtu.be/BfCS01MkbIY?si=yCOyGsL4oOUjhc-r&lt;/a> &lt;br>
 &lt;a href="https://youtu.be/oWmj73Ttp4E?si=1QCmg98n-a-A-uCJ">https://youtu.be/oWmj73Ttp4E?si=1QCmg98n-a-A-uCJ&lt;/a> &lt;br>
-&lt;a href="https://www.youtube.com/watch?v=BfCS01MkbIY&amp;amp;list=PLYJkVI7LLpknvBww07jnsxbz-_Lkynsry">https://www.youtube.com/watch?v=BfCS01MkbIY&amp;amp;list=PLYJkVI7LLpknvBww07jnsxbz-_Lkynsry&lt;/a>&lt;/p></description></item><item><title>Trans Yöntem</title><link>https://seyahdoo.com/draft/how-to-trans-mtf/</link><pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/draft/how-to-trans-mtf/</guid><description>&lt;h1 id="title">Title&lt;/h1>
+&lt;a href="https://www.youtube.com/watch?v=BfCS01MkbIY&amp;amp;list=PLYJkVI7LLpknvBww07jnsxbz-_Lkynsry">https://www.youtube.com/watch?v=BfCS01MkbIY&amp;amp;list=PLYJkVI7LLpknvBww07jnsxbz-_Lkynsry&lt;/a>&lt;/p>
+&lt;h1 id="voice-training-pitch-analyzer">voice training pitch analyzer&lt;/h1>
+&lt;p>&lt;a href="https://www.speechandhearing.net/laboratory/ampitch/">https://www.speechandhearing.net/laboratory/ampitch/&lt;/a>&lt;/p></description></item><item><title>Trans Yöntem</title><link>https://seyahdoo.com/draft/how-to-trans-mtf/</link><pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/draft/how-to-trans-mtf/</guid><description>&lt;h1 id="title">Title&lt;/h1>
 &lt;p>Medikal olarak kadin olabilirsiniz.
 Kaninizdaki ostrojen miktari surekli olarak 200un uzerindeyse vucut yavas yavas kadin ozellikleri manifesto etmeye basliyor.&lt;/p>
 &lt;h1 id="ilac-tipleri">Ilac tipleri&lt;/h1>
@@ -130,7 +132,59 @@ you might want to remove the root
 you might want to upgrade the software to latest
 factory resetting from the settings app does not ruin it
 cant lock the bootloader again because that would ruin the modem mod
-&lt;/code>&lt;/pr</description></item><item><title>We Glock G17 Gen 4 Magazine Release Spring Fix</title><link>https://seyahdoo.com/blog/we-glock-g17-gen4-mag-release-spring-fix/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/blog/we-glock-g17-gen4-mag-release-spring-fix/</guid><description>&lt;h3 id="intro">Intro&lt;/h3>
+&lt;/code>&lt;/pre>&lt;h3 id="restoring-to-original-modem-settings">Restoring To Original Modem Settings&lt;/h3>
+&lt;pre tabindex="0">&lt;code>boot to twrp
+
+adb push efs-backup /tmp
+adb shell dd if=/tmp/efs-backup/modemst1.img of=/dev/block/bootdevice/by-name/modemst1
+adb shell dd if=/tmp/efs-backup/modemst2.img of=/dev/block/bootdevice/by-name/modemst2
+adb shell dd if=/tmp/efs-backup/fsc.img of=/dev/block/bootdevice/by-name/fsc
+adb shell dd if=/tmp/efs-backup/fsg.img of=/dev/block/bootdevice/by-name/fsg
+adb reboot
+&lt;/code>&lt;/pre>&lt;h3 id="useful-links">Useful Links&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://twrp.me/">https://twrp.me/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://flash.android.com/">https://flash.android.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://qpsttool.com">https://qpsttool.com&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/topjohnwu/Magisk">https://github.com/topjohnwu/Magisk&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="thanks-to">Thanks To&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=YpG3o753D3A">UFixer - for the method to go to modem diag mode&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=wSAGF066V1E">trzpro - for the efs backup code&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.hovatek.com/forum/thread-26051.html">hovatek - for the algorithm on how to convert imei to hex&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=jEYjuYR5EOg&amp;amp;ab_channel=AlphaTechZone">Alpha Tech Zone - for the guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gist.github.com/uragiristereo/7668e067e3b0525d6e4d4b12d9f71344">uragiristereo - for the pretty comprehensive guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://forum.xda-developers.com/t/guide-root-pixel-5-with-magisk-unlock-bootloader-pass-safetynet-more.4187609/">Homeboy76 - for the amazing guide on how to root&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://chronovir.us/2019/04/09/8110-pwned-once-again-but-this-is-just-the-sTARt/">Luxferre - for the insight on how modem works&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.androidbrick.com/qualcomm-snapdragon-imei-tamiri-ders-4-qualcomm-snapdragon-imei-repair/">Ustabas Osman - for the insight on how modem works&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://forum.xda-developers.com/t/guide-backup-edit-and-restore-qcn-fixing-lost-imei.4101611/">Chema_F - for the insight on how modem works&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="insights-that-are-not-related-to-the-guide">Insights That Are Not Related To The Guide&lt;/h3>
+&lt;ul>
+&lt;li>most probably original imei data is on fsg.img file&lt;/li>
+&lt;li>on some cases its a tar file or a linux file system (sadly its not for the pixel 5)&lt;/li>
+&lt;li>FSG = Modem Storage &amp;ldquo;Golden Copy&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;h3 id="link-pool-some-might-contain-viruses">Link Pool (some might contain viruses)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://developers.google.com/android/images">https://developers.google.com/android/images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://flash.android.com/build/10316531?target=redfin-user&amp;amp;signed=true&amp;amp;wipe=true&amp;amp;forceFlash=true&amp;amp;lock=true">https://flash.android.com/build/10316531?target=redfin-user&amp;amp;signed=true&amp;amp;wipe=true&amp;amp;forceFlash=true&amp;amp;lock=true&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://forum.xda-developers.com/t/guide-root-pixel-5-with-magisk-unlock-bootloader-pass-safetynet-more.4187609/">https://forum.xda-developers.com/t/guide-root-pixel-5-with-magisk-unlock-bootloader-pass-safetynet-more.4187609/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gist.github.com/uragiristereo/7668e067e3b0525d6e4d4b12d9f71344">https://gist.github.com/uragiristereo/7668e067e3b0525d6e4d4b12d9f71344&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=YpG3o753D3A&amp;amp;ab_channel=UFixer">https://www.youtube.com/watch?v=YpG3o753D3A&amp;amp;ab_channel=UFixer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=jEYjuYR5EOg&amp;amp;ab_channel=AlphaTechZone">https://www.youtube.com/watch?v=jEYjuYR5EOg&amp;amp;ab_channel=AlphaTechZone&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=-GEKDoshIHc&amp;amp;ab_channel=RomShillzz">https://www.youtube.com/watch?v=-GEKDoshIHc&amp;amp;ab_channel=RomShillzz&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.hovatek.com/forum/thread-26051.html">https://www.hovatek.com/forum/thread-26051.html&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://forum.xda-developers.com/t/dev-info-imei-0.3806064/">https://forum.xda-developers.com/t/dev-info-imei-0.3806064/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://forum.xda-developers.com/t/guide-backup-edit-and-restore-qcn-fixing-lost-imei.4101611/">https://forum.xda-developers.com/t/guide-backup-edit-and-restore-qcn-fixing-lost-imei.4101611/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://groups.google.com/g/bananahackers/c/OCxhh7bb3-4?pli=1">https://groups.google.com/g/bananahackers/c/OCxhh7bb3-4?pli=1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://chronovir.us/2019/04/09/8110-pwned-once-again-but-this-is-just-the-sTARt/">http://chronovir.us/2019/04/09/8110-pwned-once-again-but-this-is-just-the-sTARt/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://chronovir.us/2019/04/23/Either-Qual-or-Comm/">http://chronovir.us/2019/04/23/Either-Qual-or-Comm/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/openpst/qcdm">https://github.com/openpst/qcdm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.androidbrick.com/qualcomm-snapdragon-imei-tamiri-ders-3-qualcomm-snapdragon-imei-repair/">https://www.androidbrick.com/qualcomm-snapdragon-imei-tamiri-ders-3-qualcomm-snapdragon-imei-repair/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.androidbrick.com/qualcomm-snapdragon-imei-tamiri-ders-4-qualcomm-snapdragon-imei-repair/">https://www.androidbrick.com/qualcomm-snapdragon-imei-tamiri-ders-4-qualcomm-snapdragon-imei-repair/&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>We Glock G17 Gen 4 Magazine Release Spring Fix</title><link>https://seyahdoo.com/blog/we-glock-g17-gen4-mag-release-spring-fix/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/blog/we-glock-g17-gen4-mag-release-spring-fix/</guid><description>&lt;h3 id="intro">Intro&lt;/h3>
 &lt;p>The We Glock G17 Gen 4 has a chronic problem. It sometimes fails to catch the magazine, even if the magazine is fully inserted.
 And this will lead to magazines being left on the field and no mag being on the replica while we most need it.
 Certainly a dire situation that needs fixing.&lt;/p>
@@ -224,7 +278,17 @@ I&amp;rsquo;m really not sure why this fixes it but I&amp;rsquo;ve got the idea 
 &lt;h3 id="how-to-do-it">How to do it:&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>Using this guide; &lt;a href="https://sonixqmk.github.io//SonixDocs/install/">https://sonixqmk.github.io//SonixDocs/install/&lt;/a>&lt;/p></description></item><item><title>Monsterhole</title><link>https://seyahdoo.com/trash/monsterhole/</link><pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/monsterhole/</guid><description>&lt;p>&lt;a href="https://gamejolt.com/games/moonsterhole/383002">&lt;img src="https://seyahdoo.com/images/monstorhole-thumb.png" alt="Monsterhole">&lt;/a>&lt;/p>
+&lt;p>Using this guide; &lt;a href="https://sonixqmk.github.io//SonixDocs/install/">https://sonixqmk.github.io//SonixDocs/install/&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Setup QMK environment with Sonix QMK repo&lt;/li>
+&lt;li>Apply config and keymap files&lt;/li>
+&lt;li>Download &amp;ldquo;Sonix Keyboard Flasher&amp;rdquo;&lt;/li>
+&lt;li>Compile QMK Sonix fimware with this command -&amp;gt; &lt;code>qmk compile -kb keychron/k3/rgb/optical_iso -km iso&lt;/code>&lt;/li>
+&lt;li>Binary is at your home &amp;ldquo;qmk_firmware&amp;rdquo; folder and named with &amp;ldquo;.bin&amp;rdquo; extension&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Disassemble the keyboard (you dont have to disassemble everything, just remove the keycaps next to the screws)&lt;/p></description></item><item><title>Monsterhole</title><link>https://seyahdoo.com/trash/monsterhole/</link><pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/monsterhole/</guid><description>&lt;p>&lt;a href="https://gamejolt.com/games/moonsterhole/383002">&lt;img src="https://seyahdoo.com/images/monstorhole-thumb.png" alt="Monsterhole">&lt;/a>&lt;/p>
 &lt;p>Görseller için Fırat arkadaşıma çok teşekkürler. Onun dışında ismini hatırlamadığım, oyunun yapımında yardımı dokunan herkese binbir teşekkürler.&lt;/p>
 &lt;p>&lt;a href="https://gamejolt.com/games/moonsterhole/383002">Oyunu oynamak için TIKLAYIN&lt;/a>&lt;/p></description></item><item><title>Tabletop</title><link>https://seyahdoo.com/trash/tabletop/</link><pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/tabletop/</guid><description>&lt;p>&lt;a href="https://seyahdoo.com/images/love-letter-counts.png">&lt;img src="https://seyahdoo.com/images/love-letter-counts.png" alt="Love Letter">&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://seyahdoo.com/images/fachist-track-white.png">&lt;img src="https://seyahdoo.com/images/fachist-track-white.png" alt="Hitler Fascist">&lt;/a>&lt;/p>
@@ -235,7 +299,11 @@ I&amp;rsquo;m really not sure why this fixes it but I&amp;rsquo;ve got the idea 
 if a jack is drawn from deck, drawing player can look at one of his cards&lt;/p>
 &lt;p>Points for cards&lt;/p>
 &lt;p>A - 1&lt;/p>
-&lt;p>K - 0&lt;/p></description></item><item><title>sinema not 2018</title><link>https://seyahdoo.com/trash/sinema-not/</link><pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/sinema-not/</guid><description>&lt;p>Ders 1&lt;/p>
+&lt;p>K - 0&lt;/p>
+&lt;p>Q,J - 11&lt;/p>
+&lt;p>Others - Same as number&lt;/p>
+&lt;hr>
+&lt;p>koridor game – 9×9 board, 10×2 duvar, piyonlar birbiri üstünden atlayabilir&lt;/p></description></item><item><title>sinema not 2018</title><link>https://seyahdoo.com/trash/sinema-not/</link><pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/sinema-not/</guid><description>&lt;p>Ders 1&lt;/p>
 &lt;p>Plato nun magrasi&lt;/p>
 &lt;p>Ders 2&lt;/p>
 &lt;p>First adult move
@@ -251,7 +319,11 @@ Amerikan firemandeki hikaye orgusu ve kurgu
 Kutsal geyigin olumu film
 Ellipsis kavrami&lt;/p>
 &lt;p>D.w. griffith – the birth of a nation(20 dk lik ozet) izle (eski versiyonu)
-Gorunmez kurgu, devamlilik kurgusu – ana akim&lt;/p></description></item><item><title>Showreel 2018</title><link>https://seyahdoo.com/trash/showreel-2018/</link><pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/showreel-2018/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+Gorunmez kurgu, devamlilik kurgusu – ana akim&lt;/p>
+&lt;p>Kitaplar:
+Alim şerif onarar – sessiz sinemaya iliskin kitap
+Rekin teksoy sinema kitap
+Cep kitapligi sinema kitap&lt;/p></description></item><item><title>Showreel 2018</title><link>https://seyahdoo.com/trash/showreel-2018/</link><pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/showreel-2018/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
  &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/YhA7I_W-Fc4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
  >&lt;/iframe>
  &lt;/div></description></item><item><title>Bosslu Şey</title><link>https://seyahdoo.com/trash/bosslu-sey/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/bosslu-sey/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -276,12 +348,14 @@ Gorunmez kurgu, devamlilik kurgusu – ana akim&lt;/p></description></item><item
  >&lt;/iframe>
  &lt;/div>
 
-&lt;p>Paranormal Penguin’le yaptığımız bir başka oyun daha, bu sefer fiziğe meydan okuyoruz.&lt;/p></description></item><item><title>Giant of Taka VR</title><link>https://seyahdoo.com/trash/giant-of-taka/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/giant-of-taka/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;p>Paranormal Penguin’le yaptığımız bir başka oyun daha, bu sefer fiziğe meydan okuyoruz.&lt;/p>
+&lt;p>OYUNU OYNAMAK İÇİN: &lt;a href="https://gamejolt.com/games/extreme-physics-professor/124088">https://gamejolt.com/games/extreme-physics-professor/124088&lt;/a>&lt;/p></description></item><item><title>Giant of Taka VR</title><link>https://seyahdoo.com/trash/giant-of-taka/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/giant-of-taka/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
  &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ptIlcKiq68I?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
  >&lt;/iframe>
  &lt;/div>
 
-&lt;p>Derken bir VR jam’i gözümüze çarpıyor, 2 haftada GearVR gözlük için böyle bir oyun yapıyoruz.&lt;/p></description></item><item><title>Snake Physics Multiplayer</title><link>https://seyahdoo.com/trash/snake-physics-multiplayer/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/snake-physics-multiplayer/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;p>Derken bir VR jam’i gözümüze çarpıyor, 2 haftada GearVR gözlük için böyle bir oyun yapıyoruz.&lt;/p>
+&lt;p>&lt;img src="https://seyahdoo.com/images/minnions.jpg" alt="Giant of Taka">&lt;/p></description></item><item><title>Snake Physics Multiplayer</title><link>https://seyahdoo.com/trash/snake-physics-multiplayer/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/snake-physics-multiplayer/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
  &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/mLkIm4kO3kY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
  >&lt;/iframe>
  &lt;/div>
