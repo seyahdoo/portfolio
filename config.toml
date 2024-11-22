@@ -38,11 +38,6 @@ enableRobotsTXT = true
         name = "Blog"
         weight = 1
     [[menu.main]]
-        identifier = "trans"
-        url = "/trans/"
-        name = "Trans"
-        weight = 2
-    [[menu.main]]
         identifier = "tags"
         name = "Tags"
         url = "/tags/"
