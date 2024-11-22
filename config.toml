@@ -1,11 +1,11 @@
 baseurl = "https://seyahdoo.com"
-title = "Bahar Doğan"
+title = "Seyyid Doğan"
 defaultContentLanguage = "en"
 languageCode = "en"
 theme = "gokarna"
 enableRobotsTXT = true
 [params]
-    author = "Bahar Doğan"
+    author = "Seyyid Doğan"
     description = "Game Developer / Computer Scientist"
     metaKeywords = ["blog", "developer", "personal"]
     avatarurl = "/images/avatar.png"
