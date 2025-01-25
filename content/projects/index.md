@@ -18,7 +18,7 @@ You are a pogo stick! Jump Away!
 
 ![Pogo Jump](/images/pogo.png)
 
-[Play Here!](https://greycher.itch.io/pogostick)
+[Play Here!](https://seyahdoo.com/games/pogo/index.html)
 
 ## AfterLove(Oop Doo)(Local Multiplayer for 2 Players)
 Oop Doo, is a split-screen mobile game takes place at afterlife.
