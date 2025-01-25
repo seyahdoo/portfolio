@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Seyyid Doğan</title><link>https://seyahdoo.com/blog/</link><description>Recent content in Blogs on Seyyid Doğan</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 31 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://seyahdoo.com/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>OBS display sleep prevention fix</title><link>https://seyahdoo.com/blog/obs-sleep-prevention-fix/</link><pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/blog/obs-sleep-prevention-fix/</guid><description>&lt;p>OBS normally would&amp;rsquo;t allow the display to turn off.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Seyyid Doğan</title><link>https://seyahdoo.com/blog/</link><description>Recent content in Blogs on Seyyid Doğan</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://seyahdoo.com/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Pogo</title><link>https://seyahdoo.com/blog/pogo/</link><pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/blog/pogo/</guid><description>&lt;div class="webgl-player">
+	&lt;div id="-unity-browser-width-warning" class="unity-browser-width-warning">
+		This content does not resize on smaller browser widths. Try using the fullscreen button below (after loading the game).
+	&lt;/div>
+	&lt;div id="-unity-mobile-warning" class="unity-mobile-warning">
+		Unity WebGL builds are not supported on mobile devices.
+	&lt;/div>
+	&lt;div id="-unity-container" class="unity-container unity-desktop" style="width: 1024px;">
+		&lt;canvas id="-unity-canvas" class="unity-canvas" width=1024 height=576>&lt;/canvas>
+		&lt;button id="-unity-load-button" class="unity-load-button">start loading&lt;/button>
+		&lt;div id="-unity-loading-bar" class="unity-loading-bar">
+			&lt;div id="-unity-progress-bar-empty" class="unity-progress-bar-empty">
+				&lt;div id="-unity-progress-bar-full" class="unity-progress-bar-full">&lt;/div>
+			&lt;/div>
+		&lt;/div>
+		&lt;div id="-unity-footer" class="unity-footer">
+			&lt;div id="-unity-fullscreen-button" class="unity-fullscreen-button">&lt;/div>
+			&lt;div id="-unity-game-title" class="unity-game-title">Pogo&lt;/div>
+		&lt;/div>
+		&lt;script>
+			var buildUrl = "http://seyahdoo.com/games/pogo/build";
+			var loaderUrl = buildUrl + "/webgl.loader.js";
+			var config = {
+				dataUrl: buildUrl + "/webgl.data",
+				frameworkUrl: buildUrl + "/webgl.framework.js",
+				codeUrl: buildUrl + "/webgl.wasm",
+				streamingAssetsUrl: "StreamingAssets",
+			};
+
+			var container = document.querySelector("#-unity-container");
+			var canvas = document.querySelector("#-unity-canvas");
+			var loadButton = document.querySelector("#-unity-load-button");
+			var loadingBar = document.querySelector("#-unity-loading-bar");
+			var progressBarFull = document.querySelector("#-unity-progress-bar-full");
+			var fullscreenButton = document.querySelector("#-unity-fullscreen-button");
+			var mobileWarning = document.querySelector("#-unity-mobile-warning");
+
+			
+			
+			
+			
+			
+			
+
+			if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+				mobileWarning.style.display = "block";
+			} else {
+				mobileWarning.style.display = "none";
+			}
+			canvas.style.width = "1024px";
+			canvas.style.height = "576px";
+			loadingBar.style.display = "none";
+
+			var script = document.createElement("script");
+			script.src = loaderUrl;
+			loadButton.addEventListener("click", function () {
+				createUnityInstance(canvas, config, (progress) => {
+					progressBarFull.style.width = 100 * progress + "%";
+				}).then((unityInstance) => {
+					loadingBar.style.display = "none";
+					loadButton.style.display = "none";
+					loadButton.disabled = true;
+					fullscreenButton.onclick = () => {
+						unityInstance.SetFullscreen(1);
+					};
+				}).catch((message) => {
+					alert(message);
+				});
+			});
+			loadButton.addEventListener("click", function () {
+				loadButton.disabled = true;
+				loadingBar.style.display = "block";
+			});
+			document.body.appendChild(script);
+		&lt;/script>
+	&lt;/div>
+&lt;/div></description></item><item><title>OBS display sleep prevention fix</title><link>https://seyahdoo.com/blog/obs-sleep-prevention-fix/</link><pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/blog/obs-sleep-prevention-fix/</guid><description>&lt;p>OBS normally would&amp;rsquo;t allow the display to turn off.
 If you have a replay system running in the background and have an oled monitor, thats a very bad combo.&lt;/p>
 &lt;p>Run this command to disable that behaviour.&lt;/p>
 &lt;pre tabindex="0">&lt;code>powercfg -requestsoverride process obs64.exe display system awaymode

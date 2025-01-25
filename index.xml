@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seyyid Doğan</title><link>https://seyahdoo.com/</link><description>Recent content on Seyyid Doğan</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://seyahdoo.com/index.xml" rel="self" type="application/rss+xml"/><item><title>LGBT Giriş</title><link>https://seyahdoo.com/draft/lgbt-intro/</link><pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/draft/lgbt-intro/</guid><description>&lt;h1 id="title">Title&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seyyid Doğan</title><link>https://seyahdoo.com/</link><description>Recent content on Seyyid Doğan</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://seyahdoo.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Pogo</title><link>https://seyahdoo.com/blog/pogo/</link><pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/blog/pogo/</guid><description>&lt;div class="webgl-player">
+	&lt;div id="-unity-browser-width-warning" class="unity-browser-width-warning">
+		This content does not resize on smaller browser widths. Try using the fullscreen button below (after loading the game).
+	&lt;/div>
+	&lt;div id="-unity-mobile-warning" class="unity-mobile-warning">
+		Unity WebGL builds are not supported on mobile devices.
+	&lt;/div>
+	&lt;div id="-unity-container" class="unity-container unity-desktop" style="width: 1024px;">
+		&lt;canvas id="-unity-canvas" class="unity-canvas" width=1024 height=576>&lt;/canvas>
+		&lt;button id="-unity-load-button" class="unity-load-button">start loading&lt;/button>
+		&lt;div id="-unity-loading-bar" class="unity-loading-bar">
+			&lt;div id="-unity-progress-bar-empty" class="unity-progress-bar-empty">
+				&lt;div id="-unity-progress-bar-full" class="unity-progress-bar-full">&lt;/div>
+			&lt;/div>
+		&lt;/div>
+		&lt;div id="-unity-footer" class="unity-footer">
+			&lt;div id="-unity-fullscreen-button" class="unity-fullscreen-button">&lt;/div>
+			&lt;div id="-unity-game-title" class="unity-game-title">Pogo&lt;/div>
+		&lt;/div>
+		&lt;script>
+			var buildUrl = "http://seyahdoo.com/games/pogo/build";
+			var loaderUrl = buildUrl + "/webgl.loader.js";
+			var config = {
+				dataUrl: buildUrl + "/webgl.data",
+				frameworkUrl: buildUrl + "/webgl.framework.js",
+				codeUrl: buildUrl + "/webgl.wasm",
+				streamingAssetsUrl: "StreamingAssets",
+			};
+
+			var container = document.querySelector("#-unity-container");
+			var canvas = document.querySelector("#-unity-canvas");
+			var loadButton = document.querySelector("#-unity-load-button");
+			var loadingBar = document.querySelector("#-unity-loading-bar");
+			var progressBarFull = document.querySelector("#-unity-progress-bar-full");
+			var fullscreenButton = document.querySelector("#-unity-fullscreen-button");
+			var mobileWarning = document.querySelector("#-unity-mobile-warning");
+
+			
+			
+			
+			
+			
+			
+
+			if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+				mobileWarning.style.display = "block";
+			} else {
+				mobileWarning.style.display = "none";
+			}
+			canvas.style.width = "1024px";
+			canvas.style.height = "576px";
+			loadingBar.style.display = "none";
+
+			var script = document.createElement("script");
+			script.src = loaderUrl;
+			loadButton.addEventListener("click", function () {
+				createUnityInstance(canvas, config, (progress) => {
+					progressBarFull.style.width = 100 * progress + "%";
+				}).then((unityInstance) => {
+					loadingBar.style.display = "none";
+					loadButton.style.display = "none";
+					loadButton.disabled = true;
+					fullscreenButton.onclick = () => {
+						unityInstance.SetFullscreen(1);
+					};
+				}).catch((message) => {
+					alert(message);
+				});
+			});
+			loadButton.addEventListener("click", function () {
+				loadButton.disabled = true;
+				loadingBar.style.display = "block";
+			});
+			document.body.appendChild(script);
+		&lt;/script>
+	&lt;/div>
+&lt;/div></description></item><item><title>LGBT Giriş</title><link>https://seyahdoo.com/draft/lgbt-intro/</link><pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/draft/lgbt-intro/</guid><description>&lt;h1 id="title">Title&lt;/h1>
 &lt;p>lgbt nedir&lt;/p></description></item><item><title>Muscle Mass Study</title><link>https://seyahdoo.com/draft/muscle-mass-study/</link><pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/draft/muscle-mass-study/</guid><description>&lt;h1 id="title">Title&lt;/h1></description></item><item><title>Trans Linkler</title><link>https://seyahdoo.com/trash/trans-kaynaklar/</link><pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/trans-kaynaklar/</guid><description>&lt;h1 id="bilgi-kaynaklari">bilgi kaynaklari&lt;/h1>
 &lt;p>&lt;a href="https://transfemscience.org/articles/transfem-intro/">https://transfemscience.org/articles/transfem-intro/&lt;/a> &lt;br>
 &lt;a href="https://diyhrt.wiki/transfem">https://diyhrt.wiki/transfem&lt;/a> &lt;br>
@@ -324,16 +400,13 @@ Gorunmez kurgu, devamlilik kurgusu – ana akim&lt;/p>
 Alim şerif onarar – sessiz sinemaya iliskin kitap
 Rekin teksoy sinema kitap
 Cep kitapligi sinema kitap&lt;/p></description></item><item><title>Showreel 2018</title><link>https://seyahdoo.com/trash/showreel-2018/</link><pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/showreel-2018/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/YhA7I_W-Fc4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/YhA7I_W-Fc4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div></description></item><item><title>Bosslu Şey</title><link>https://seyahdoo.com/trash/bosslu-sey/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/bosslu-sey/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/3xywumSb7w?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/3xywumSb7w?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 
 &lt;p>BUG Global Game Jam etkinliğinde yeni tanıştığım paranormal penguenlerle yaptığımız ilk oyun, amaç büyük bossu öldürüp yerine geçmek. Böylece yüce bossfight ritüelini sonsuza kadar sürdürmek.&lt;/p></description></item><item><title>Extreme Physics Professor</title><link>https://seyahdoo.com/trash/extreme-physics-professor/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/extreme-physics-professor/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/TJcOUi2_sBE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/TJcOUi2_sBE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 
 &lt;ul>
@@ -341,28 +414,22 @@ Cep kitapligi sinema kitap&lt;/p></description></item><item><title>Showreel 2018
 &lt;li>&lt;/li>
 &lt;/ul>
 
-
- 
  &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/nrMWmoS62aI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/nrMWmoS62aI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 
 &lt;p>Paranormal Penguin’le yaptığımız bir başka oyun daha, bu sefer fiziğe meydan okuyoruz.&lt;/p>
 &lt;p>OYUNU OYNAMAK İÇİN: &lt;a href="https://gamejolt.com/games/extreme-physics-professor/124088">https://gamejolt.com/games/extreme-physics-professor/124088&lt;/a>&lt;/p></description></item><item><title>Giant of Taka VR</title><link>https://seyahdoo.com/trash/giant-of-taka/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/giant-of-taka/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ptIlcKiq68I?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ptIlcKiq68I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 
 &lt;p>Derken bir VR jam’i gözümüze çarpıyor, 2 haftada GearVR gözlük için böyle bir oyun yapıyoruz.&lt;/p>
 &lt;p>&lt;img src="https://seyahdoo.com/images/minnions.jpg" alt="Giant of Taka">&lt;/p></description></item><item><title>Snake Physics Multiplayer</title><link>https://seyahdoo.com/trash/snake-physics-multiplayer/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/snake-physics-multiplayer/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/mLkIm4kO3kY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/mLkIm4kO3kY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 
 &lt;p>Bu küçük arkadaş benim ilk yayınladığım oyunum. Kendisini Bahçeşehir üniversitesi oyun geliştirme laboratuvarındaki local multiplayer jam’inde yapmıştım. Görseller için adını unuttuğum arkadaşa teşekkürler. UI konusundaki yardımları için Arda hocama teşekkürler. Ne zaman dönmeye kalsam tork ve hız gibisinden garip fizik olayları sebebiyle ölümüne dönen yılanımı kurtardığı içinde gine adını unuttuğum unity guru’su arkaşa çok teşekkürler. Siz olmasaydınız bu proje olamazdı.&lt;/p></description></item><item><title>Super Box Platformer Deluxe</title><link>https://seyahdoo.com/trash/super-box-platformer-deluxe/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/super-box-platformer-deluxe/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/l-IHJQNFYhs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/l-IHJQNFYhs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 
 &lt;p>Buda evde can sıkıntısından yaptığım küçük bi eğlence.&lt;/p></description></item><item><title/><link>https://seyahdoo.com/trash/contract/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/contract/</guid><description/></item><item><title/><link>https://seyahdoo.com/trash/mezuniyet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/mezuniyet/</guid><description/></item><item><title/><link>https://seyahdoo.com/trash/odev-gonderici-2000/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/trash/odev-gonderici-2000/</guid><description/></item><item><title>Hobbies</title><link>https://seyahdoo.com/hobbies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seyahdoo.com/hobbies/</guid><description>&lt;hr>
