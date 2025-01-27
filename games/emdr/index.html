@@ -4,31 +4,37 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>EMDR Toolkit</title>
+    <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
+    <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
 </head>
 <body>
-<div>
     <audio id="audio-element" loop>
         <source src="emdr-click.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
-    <button id="play-button" onclick="playPause()">
-        PLAY
-    </button>
-</div>
-<script>
-    let audio = document.getElementById("audio-element");
-    let playButton = document.getElementById("play-button")
-    let playing = false;
-    function playPause() {
-        playing = !playing;
-        if (playing){
-            audio.play();
-            playButton.innerText = "PAUSE";
-        }else{
-            audio.pause();
-            playButton.innerText = "PLAY";
+    <mdui-button id="play-button" onclick="playPause()" style="width: 100%;height: 100px;font-size: xx-large;">Play</mdui-button>
+
+    <script>
+        let audio = document.getElementById("audio-element");
+        let playButton = document.getElementById("play-button")
+        let playing = false;
+        function playPause() {
+            playing = !playing;
+            if (playing){
+                audio.play();
+                playButton.innerText = "Pause";
+            }else{
+                audio.pause();
+                playButton.innerText = "Play";
+            }
         }
-    }
-</script>
+    </script>
 </body>
+<style>
+    html, body {
+        margin: 0;
+        height: 100%;
+        background-color: #22272e;
+    }
+</style>
 </html>
