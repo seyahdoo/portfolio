@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>EMDR Toolkit</title>
+</head>
+<body>
+<div id="unity-container" class="unity-desktop">
+    <div>
+        <audio crossorigin="anonymous" id="audio-element-left">
+            <source src="click-left.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        <audio crossorigin="anonymous" id="audio-element-right">
+            <source src="click-right.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        <button onclick="playPause()">
+            PLAY/PAUSE
+        </button>
+    </div>
+</div>
+<script>
+
+    var left = document.getElementById("audio-element-left");
+    var right = document.getElementById("audio-element-right");
+
+    var isRight = true;
+    
+    function switchStereo() {
+        isRight = !isRight;
+        if (isRight){
+            right.play();
+        }else{
+            left.play();
+        }
+    }
+    
+    var interval = null;
+    var playing = false;
+    function playPause() {
+        playing = !playing;
+        if (playing){
+            interval = setInterval(switchStereo,300);
+        }else{
+            clearInterval(interval);
+        }
+    }
+
+</script>
+</body>
+</html>
