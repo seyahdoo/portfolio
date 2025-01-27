@@ -7,12 +7,8 @@
 </head>
 <body>
 <div>
-    <audio id="audio-element-left">
-        <source src="click-left.wav" type="audio/wav">
-        Your browser does not support the audio element.
-    </audio>
-    <audio id="audio-element-right">
-        <source src="click-right.wav" type="audio/wav">
+    <audio id="audio-element" loop>
+        <source src="emdr-click.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
     <button onclick="playPause()">
@@ -20,32 +16,16 @@
     </button>
 </div>
 <script>
-
-    var left = document.getElementById("audio-element-left");
-    var right = document.getElementById("audio-element-right");
-
-    var isRight = true;
-    
-    function switchStereo() {
-        isRight = !isRight;
-        if (isRight){
-            right.play();
-        }else{
-            left.play();
-        }
-    }
-    
-    var interval = null;
-    var playing = false;
+    let audio = document.getElementById("audio-element");
+    let playing = false;
     function playPause() {
         playing = !playing;
         if (playing){
-            interval = setInterval(switchStereo,300);
+            audio.play();
         }else{
-            clearInterval(interval);
+            audio.pause();
         }
     }
-
 </script>
 </body>
 </html>
