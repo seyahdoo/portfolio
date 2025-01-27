@@ -4,6 +4,8 @@ defaultContentLanguage = "en"
 languageCode = "en"
 theme = "gokarna"
 enableRobotsTXT = true
+[markup.goldmark.renderer]
+    unsafe= true
 [params]
     author = "Toprak Seyyid Doğan"
     description = "Game Developer / Computer Scientist"
