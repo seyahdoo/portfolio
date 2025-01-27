@@ -6,20 +6,18 @@
     <title>EMDR Toolkit</title>
 </head>
 <body>
-<div id="unity-container" class="unity-desktop">
-    <div>
-        <audio crossorigin="anonymous" id="audio-element-left">
-            <source src="click-left.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-        <audio crossorigin="anonymous" id="audio-element-right">
-            <source src="click-right.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-        <button onclick="playPause()">
-            PLAY/PAUSE
-        </button>
-    </div>
+<div>
+    <audio id="audio-element-left">
+        <source src="click-left.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="audio-element-right">
+        <source src="click-right.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+    <button onclick="playPause()">
+        PLAY/PAUSE
+    </button>
 </div>
 <script>
 
