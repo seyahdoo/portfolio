@@ -11,19 +11,22 @@
         <source src="emdr-click.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
-    <button onclick="playPause()">
-        PLAY/PAUSE
+    <button id="play-button" onclick="playPause()">
+        PLAY
     </button>
 </div>
 <script>
     let audio = document.getElementById("audio-element");
+    let playButton = document.getElementById("play-button")
     let playing = false;
     function playPause() {
         playing = !playing;
         if (playing){
             audio.play();
+            playButton.innerText = "PAUSE";
         }else{
             audio.pause();
+            playButton.innerText = "PLAY";
         }
     }
 </script>
