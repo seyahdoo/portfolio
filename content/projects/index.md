@@ -6,19 +6,19 @@ title = "Projects"
 
 # Games Of Mine That I Want You To Play
 
-## Stuck Balls
-There is two balls, they are stuck, just try to get to the flag.
-
-![Stuck Balls](/images/stuckballs.png)
-
-[Play Here!](https://seyahdoo.itch.io/stuck-balls)
-
 ## Pogo Jump
 You are a pogo stick! Jump Away!
 
 ![Pogo Jump](/images/pogo.png)
 
 [Play Here!](https://seyahdoo.com/games/pogo/index.html)
+
+## Stuck Balls
+There is two balls, they are stuck, just try to get to the flag.
+
+![Stuck Balls](/images/stuckballs.png)
+
+[Play Here!](https://seyahdoo.itch.io/stuck-balls)
 
 ## AfterLove(Oop Doo)(Local Multiplayer for 2 Players)
 Oop Doo, is a split-screen mobile game takes place at afterlife.
