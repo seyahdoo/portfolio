@@ -30,6 +30,13 @@ Our goal in this game is reunite this couple!
 
 [Play Here!](https://globalgamejam.org/2021/games/kavushing-souls-0)
 
+## Scope Creep
+Try to get most pieces while being on time.
+
+{{< img "Scope Creep" "/images/scope-creep.png" "/blog/scope-creep/" >}}
+
+[Play Here!](/blog/scope-creep/)
+
 ## Heawin(Local Multiplayer for 2 Players)
 {{< youtube sNkyM_pELxI >}}
 
