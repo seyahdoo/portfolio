@@ -9,14 +9,14 @@ title = "Projects"
 ## Pogo Jump
 You are a pogo stick! Jump Away!
 
-![Pogo Jump](/images/pogo.png)
+{{< img "Pogo Jump" "/images/pogo.png" "/blog/pogo/" >}}
 
-[Play Here!](https://seyahdoo.com/games/pogo/index.html)
+[Play Here!](/blog/pogo/)
 
 ## Stuck Balls
 There is two balls, they are stuck, just try to get to the flag.
 
-![Stuck Balls](/images/stuckballs.png)
+{{< img "Stuck Balls" "/images/stuckballs.png" "https://seyahdoo.itch.io/stuck-balls" >}}
 
 [Play Here!](https://seyahdoo.itch.io/stuck-balls)
 
@@ -26,7 +26,7 @@ Story starts with death of a couple that loves eachother.
 But when their souls journeys within limbo, they lost each other.
 Our goal in this game is reunite this couple!
 
-![After Love](/images/after-love.png)
+{{< img "After Love" "/images/after-love.png" "https://globalgamejam.org/2021/games/kavushing-souls-0" >}}
 
 [Play Here!](https://globalgamejam.org/2021/games/kavushing-souls-0)
 
@@ -38,7 +38,7 @@ Our goal in this game is reunite this couple!
 ## Monster Hole
 Chug Dudes To A Volcano!
 
-![Monster Hole](/images/monstorhole-thumb.png)
+{{< img "Monster Hole" "/images/monstorhole-thumb.png" "https://gamejolt.com/games/moonsterhole/383002" >}}
 
 [Play Here!](https://gamejolt.com/games/moonsterhole/383002)
 
