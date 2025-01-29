@@ -22,13 +22,15 @@ There is two balls, they are stuck, just try to get to the flag.
 
 ## AfterLove(Oop Doo)(Local Multiplayer for 2 Players)
 Oop Doo, is a split-screen mobile game takes place at afterlife.
-Story starts with death of a couple that loves eachother.
+Story starts with death of a couple that loves each other.
 But when their souls journeys within limbo, they lost each other.
-Our goal in this game is reunite this couple!
+Our goal in this game is re-unite this couple!
 
-{{< img "After Love" "/images/after-love.png" "https://globalgamejam.org/2021/games/kavushing-souls-0" >}}
+{{< img "After Love" "/images/after-love.png" "/blog/after-love/" >}}
 
-[Play Here!](https://globalgamejam.org/2021/games/kavushing-souls-0)
+[Play Here!](/blog/after-love/)
+
+[Jam Page](https://globalgamejam.org/2021/games/kavushing-souls-0)
 
 ## Scope Creep
 Try to get most pieces while being on time.
