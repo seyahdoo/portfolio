@@ -16,9 +16,10 @@ You are a pogo stick! Jump Away!
 ## Stuck Balls
 There is two balls, they are stuck, just try to get to the flag.
 
-{{< img "Stuck Balls" "/images/stuckballs.png" "https://seyahdoo.itch.io/stuck-balls" >}}
+{{< img "Stuck Balls" "/images/stuckballs.png" "/blog/stuck-balls/" >}}
 
-[Play Here!](https://seyahdoo.itch.io/stuck-balls)
+[Play Here!](/blog/stuck-balls/)
+[Jam Page](https://seyahdoo.itch.io/stuck-balls)
 
 ## AfterLove(Oop Doo)(Local Multiplayer for 2 Players)
 Oop Doo, is a split-screen mobile game takes place at afterlife.
