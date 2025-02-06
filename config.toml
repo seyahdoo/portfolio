@@ -42,11 +42,6 @@ timeout = 60000 # This is required for larger galleries to be build
         name = "Blog"
         weight = 1
     [[menu.main]]
-        identifier = "tags"
-        name = "Tags"
-        url = "/tags/"
-        weight = 3
-    [[menu.main]]
         identifier = "projects"
         name = "Projects"
         url = "/projects/"

@@ -1,7 +1,6 @@
 +++
 title = "EMDR App"
 date = "2025-01-27"
-tags = ["EMDR"]
 type = "post"
 +++
 

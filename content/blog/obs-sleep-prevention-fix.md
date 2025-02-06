@@ -1,7 +1,6 @@
 +++
 title = "OBS display sleep prevention fix"
 date = "2024-07-31"
-tags = ["OBS"]
 type = "post"
 +++
 

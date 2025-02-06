@@ -1,7 +1,6 @@
 +++
 title = "We Glock G17 Gen 4 Magazine Release Spring Fix"
 date = "2023-08-30"
-tags = ["Diy", "Airsoft"]
 type = "post"
 +++
 
