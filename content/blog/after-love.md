@@ -1,7 +1,6 @@
 +++
 title = "Oop Doo: Afterlove The Game"
 date = "2025-01-29"
-tags = ["Games"]
 type = "post"
 +++
 

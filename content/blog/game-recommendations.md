@@ -1,7 +1,6 @@
 +++
 title = "Games That I Recommend"
 date = "2022-06-29"
-tags = ["Games"]
 type = "post"
 +++
 

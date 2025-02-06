@@ -1,7 +1,6 @@
 +++
 title = "Pixel 5 Imei Repair Guide"
 date = "2023-09-16"
-tags = ["Android"]
 type = "post"
 +++
 

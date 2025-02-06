@@ -1,7 +1,6 @@
 ﻿+++
 title = "Windows Mods & Programs"
 date = "2022-07-20"
-tags = ["Mods", "Keyboard"]
 type = "post"
 +++
 

@@ -1,7 +1,6 @@
 +++
 title = "Git Subtree Usage"
 date = "2024-07-30"
-tags = ["Git"]
 type = "post"
 +++
 
