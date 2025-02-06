@@ -3,13 +3,13 @@
 
     --timeline_column_width: 60px;
     --timeline_line_width: 6px;
-    --timeline_line_color: #EAFDF8;
+    --timeline_line_color: #48ACF0;
     --timeline_bullet_diameter: 25px;
     --timeline_bullet_border_width: var(--timeline_line_width);
-    --timeline_bullet_color: #444;
+    --timeline_bullet_color: #000;
 
     --content_collapse_duration: 0.3s;
-    --content_background_color: #22272E;
+    --content_background_color: #232228;
     --content_border_color: #444;
-    --content_duration_color: #000;
+    --content_duration_color: white;
 }
