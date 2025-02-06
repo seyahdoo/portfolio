@@ -2,7 +2,7 @@ baseurl = "https://seyahdoo.com"
 title = "Toprak Seyyid Doğan"
 defaultContentLanguage = "en"
 languageCode = "en"
-theme = ["gokarna", "hugo-shortcode-gallery"]
+theme = ["gokarna", "hugo-shortcode-gallery", "hugo-shortcode-timeline"]
 enableRobotsTXT = true
 timeout = 60000 # This is required for larger galleries to be build
 [markup.goldmark.renderer]
