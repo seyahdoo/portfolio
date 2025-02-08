@@ -127,7 +127,7 @@ Ordinal: {{ .Ordinal}}
 
 			{{/* Correct orientation of the image, this is needed for thumbnails (and downscaled gallery images)
 				 if the EXIF informations contains an orientation value. See issue #22. */}}
-			{{ $rotated := $original }}
+			{{ $rotated := $original.Filter images.AutoOrient }}
 
 			<div>
 				{{ $full := "" }}
