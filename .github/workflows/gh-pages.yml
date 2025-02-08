@@ -16,14 +16,15 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Run the build process with Docker
-        uses: addnab/docker-run-action@v3
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          image: hugomods/hugo:latest
-          options: -v ${{ github.workspace }}:/src
-          run: |
-            hugo --minify
+          hugo-version: '0.142.0'
+          extended: true
+          
+      - name: Build
+        run: hugo --minify
         
       - name: Custom Domain
         run: echo seyahdoo.com > public/CNAME
