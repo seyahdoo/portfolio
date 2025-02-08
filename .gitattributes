@@ -6,3 +6,10 @@
 
 # SVG files should not be modified
 *.svg -text
+
+# Macro for all binary files that should use Git LFS.
+[attr]lfs -text filter=lfs diff=lfs merge=lfs
+
+*.png lfs
+*.jpeg lfs
+*.jpg lfs
