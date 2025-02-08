@@ -5,5 +5,5 @@ type = "post"
 +++
 
 
-{{< gallery match="images/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="full" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
+{{< gallery match="images/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="original" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
 
