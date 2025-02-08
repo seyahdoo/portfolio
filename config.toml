@@ -7,6 +7,8 @@ enableRobotsTXT = true
 timeout = 600000 # This is required for larger galleries to be build
 [markup.goldmark.renderer]
     unsafe= true
+[imaging.exif]
+    includeFields = ".*"
 [params]
     author = "Toprak Seyyid Doğan"
     description = "Game Developer / Computer Scientist"
