@@ -9,8 +9,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    container:
-      image: hugomods/hugo:latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -18,9 +16,14 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-      
-      - name: Build
-        run: hugo --minify
+
+      - name: Run the build process with Docker
+        uses: addnab/docker-run-action@v3
+        with:
+          image: hugomods/hugo:latest
+          options: -v ${{ github.workspace }}:/src
+          run: |
+            hugo --minify
         
       - name: Custom Domain
         run: echo seyahdoo.com > public/CNAME
