@@ -1,4 +1,4 @@
-# seyahdoo.com website
+# seyahdoo.com website (moved to gitlab)
 
 ## How to test locally
 
