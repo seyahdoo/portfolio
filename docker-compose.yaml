@@ -1,0 +1,7 @@
+
+services:
+  hugo:
+    image: hugomods/hugo:latest
+    volumes:
+      - ./:/src
+    command: --minify
